@@ -1,0 +1,12 @@
+Source: ros-humble-sick-safevisionary-base
+Section: misc
+Priority: optional
+Maintainer: Marvin Grosse Besselmann <grosse@fzi.de>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-sick-safevisionary-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ros-workspace
+Description: The package provides the basic hardware interface to the SICK Safevisionary sensor
